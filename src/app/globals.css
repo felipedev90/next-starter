@@ -1,10 +1,18 @@
 @import 'tailwindcss';
 
 @theme inline {
-  /* Add your design tokens here */
-}
+  /* Backgrounds */
+  --color-bg-dark: #141414;
+  --color-bg-light: #f0ece1;
 
-body {
-  font-family: system-ui, sans-serif;
-  -webkit-font-smoothing: antialiased;
+  /* Destaque */
+  --color-accent: #f5c800;
+
+  /* Texto */
+  --color-text-on-dark: #f0ece1;
+  --color-text-on-light: #0a0a0a;
+
+  /* Tipografia — conecta com as variáveis CSS que o next/font injeta */
+  --font-sans: var(--font-archivo-narrow);
+  --font-mono: var(--font-jetbrains-mono);
 }
