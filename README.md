@@ -32,7 +32,7 @@ Personal Next.js starter template with strict tooling, designed for production-g
 Click **Use this template** at the top of the GitHub page, or:
 
 ```
-npx create-next-app@latest my-app --use-template felipedev90/nextjs-template
+npx create-next-app@latest my-app-name --example https://github.com/felipedev90/next-starter
 ```
 
 ## Scripts
